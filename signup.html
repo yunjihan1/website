@@ -6,16 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta name="description" content="" />
   <meta name="author" content="" />
-  <title>사이트</title>
+  <title>PROGRESS</title>
   <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
   <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet" />
   <link href="css/styles.css" rel="stylesheet" />
 
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Nanum Pen Script', cursive, Arial, sans-serif;
+      background-color: #ffffff;
     }
 
     .container-recommend {
@@ -26,7 +28,7 @@
       font-size: 24px;
       font-weight: bold;
       margin-bottom: 20px;
-      color: #333;
+      color: #333333;
     }
 
     .product-list {
@@ -76,6 +78,62 @@
       font-size: 14px;
       color: #888;
     }
+    
+    /* 전체 배경을 흰색으로 설정 */
+    .masthead-login {
+        background: #ffffff !important;
+    }
+    .about-section {
+        background: #ffffff !important;
+    }
+    .projects-section {
+        background: #ffffff !important;
+    }
+    .signup-section {
+        background: #ffffff !important;
+    }
+    .footer {
+        background: #ffffff !important;
+    }
+    
+    /* 텍스트 색상을 어두운 색으로 변경 */
+    .masthead-login h1, .masthead-login .h1 {
+        color: #333333 !important;
+        -webkit-text-fill-color: #333333 !important;
+        background: none !important;
+    }
+    .masthead-login h2, .masthead-login .h2 {
+        color: #666666 !important;
+    }
+    .text-white-50 {
+        color: #666666 !important;
+    }
+    .text-white {
+        color: #333333 !important;
+    }
+    
+    /* 네비게이션 바 배경을 흰색으로 */
+    #mainNav {
+        background-color: #ffffff !important;
+    }
+    #mainNav .navbar-brand {
+        color: #333333 !important;
+    }
+    #mainNav .nav-link {
+        color: #333333 !important;
+    }
+    #mainNav .nav-link:hover {
+        color: #666666 !important;
+    }
+    
+    /* 폼 요소 스타일 */
+    .form-control {
+        font-family: 'Nanum Pen Script', cursive;
+        color: #333333;
+    }
+    .btn {
+        font-family: 'Nanum Pen Script', cursive;
+    }
   </style>
 </head>
 
@@ -85,7 +143,7 @@
   <!-- 네비게이션 -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container px-4 px-lg-5">
-      <a class="navbar-brand" href="index.html">메인으로</a>
+      <a class="navbar-brand" href="index.html">Main</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
         aria-label="Toggle navigation">
@@ -97,34 +155,33 @@
     </div>
   </nav>
 
-  <!-- 회원가입 헤더 -->
   <header class="masthead-login">
     <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
       <div class="d-flex justify-content-center">
         <div class="text-center">
 
-          <h2 class="text-white mb-5">회원가입</h2>
+          <h2 class="mb-5" style="color: #333333; font-family: 'Nanum Pen Script', cursive;">Welcome</h2>
 
           <div class="col">
             <input class="form-control" id="idInput" type="text"
-              placeholder="사용할 아이디" aria-label="아이디" required>
+              placeholder="ID" aria-label="ID" required>
           </div>
 
           <div class="col mt-4">
             <input class="form-control" id="passwordInput" type="password"
-              placeholder="비밀번호" aria-label="비밀번호" required>
+              placeholder="Password" aria-label="Password" required>
           </div>
 
           <div class="col mt-4">
             <input class="form-control" id="confirmPasswordInput" type="password"
-              placeholder="비밀번호 확인" aria-label="비밀번호 확인" required>
+              placeholder="Verify Password" aria-label="Verify Password" required>
           </div>
 
           <div class="col-auto mt-4">
-            <button class="btn btn-primary" style="background-color: #333;"
-              id="signupSubmitButton" type="submit" disabled>회원가입 완료</button>
-            <button class="btn btn-secondary ms-2" style="background-color:#333"
-              onclick="location.href='login.html'">로그인하기</button>
+            <button class="btn btn-primary" style="background-color: #333333; font-family: 'Nanum Pen Script', cursive;"
+              id="signupSubmitButton" type="submit" disabled>Complete</button>
+            <button class="btn btn-secondary ms-2" style="background-color:#333333; font-family: 'Nanum Pen Script', cursive;"
+              onclick="location.href='login.html'">Login</button>
           </div>
 
         </div>
@@ -132,9 +189,8 @@
     </div>
   </header>
 
-  <!-- 푸터 -->
-  <footer class="footer bg-black small text-center text-white-50">
-    <div class="container px-4 px-lg-5">Copyright &copy; My Website 2025</div>
+  <footer class="footer bg-white small text-center text-dark">
+    <div class="container px-4 px-lg-5">Copyright &copy; 2025 PGS. All rights reserved.</div>
   </footer>
 
   <!-- 스크립트 -->

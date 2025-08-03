@@ -7,17 +7,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>사이트</title>
+        <title>PROGRESS</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
 
         
         <style>
             body {
-            font-family: Arial, sans-serif;
+            font-family: 'Nanum Pen Script', cursive, Arial, sans-serif;
+            background-color: #ffffff;
             }
             .container-recommend {
             padding-bottom: 100px;
@@ -26,7 +28,7 @@
             font-size: 24px;
             font-weight: bold;
             margin-bottom: 20px;
-            color: #ffffff;
+            color: #333333;
             }
             .product-list {
             display: flex;
@@ -85,6 +87,53 @@
             }
             .product-desc {
                 font-size: 14px;
+            }
+            
+            /* 전체 배경을 흰색으로 설정 */
+            .masthead {
+                background: #ffffff !important;
+            }
+            .about-section {
+                background: #ffffff !important;
+            }
+            .projects-section {
+                background: #ffffff !important;
+            }
+            .signup-section {
+                background: #ffffff !important;
+            }
+            .footer {
+                background: #ffffff !important;
+            }
+            
+            /* 텍스트 색상을 어두운 색으로 변경 */
+            .masthead h1, .masthead .h1 {
+                color: #333333 !important;
+                -webkit-text-fill-color: #333333 !important;
+                background: none !important;
+            }
+            .masthead h2, .masthead .h2 {
+                color: #666666 !important;
+            }
+            .text-white-50 {
+                color: #666666 !important;
+            }
+            .text-white {
+                color: #333333 !important;
+            }
+            
+            /* 네비게이션 바 배경을 흰색으로 */
+            #mainNav {
+                background-color: #ffffff !important;
+            }
+            #mainNav .navbar-brand {
+                color: #333333 !important;
+            }
+            #mainNav .nav-link {
+                color: #333333 !important;
+            }
+            #mainNav .nav-link:hover {
+                color: #666666 !important;
             }
         </style>
     </head>
@@ -310,12 +359,11 @@
 
 
         <section class="signup-section" id="signup">
-            <img src="bg-signup.jpg">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-md-10 col-lg-8 mx-auto text-center">
-                        <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                        <h2 class="text-white mb-5">Product search</h2>
+                        <i class="far fa-paper-plane fa-2x mb-2" style="color: #333333;"></i>
+                        <h2 class="mb-5" style="color: #333333; font-family: 'Nanum Pen Script', cursive;">Product search</h2>
                         <form class="form-signup" id="contactForm" action="search.html" method="GET" class="form-inline">
                             <div class="row input-group-newsletter">
                                 <div class="col">
@@ -334,7 +382,7 @@
         </section>
 
         
-        <footer class="footer bg-black small text-center text-white-50">
+        <footer class="footer bg-white small text-center text-dark">
             <div class="container px-4 px-lg-5">Copyright &copy; 2025 PGS. All rights reserved.</div>
             <div class="container px-4 px-lg-5">Email: progress.pgsq@gmail.com | Instagram: @progres___pgs</div>
         </footer>
